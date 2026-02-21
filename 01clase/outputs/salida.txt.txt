@@ -1,0 +1,4 @@
+titulo;autor;numero_de_paginas;editorial;precio
+El canto perdido    ;Julia Navarro  ;390;Alfaguara  ;28.9
+El viaje eterno     ;Carlos Pérez   ;320;Alfaguara  ;25.5
+Ríos de fuego       ;Diego Vargas   ;450;Alfaguara  ;30

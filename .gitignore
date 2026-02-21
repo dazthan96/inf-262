@@ -1,0 +1,22 @@
+# --- Archivos de registro y temporales de Pentaho ---
+*.log
+*.lck
+*.tmp
+pentaho.log
+derby.log
+
+# --- Configuraciones locales y de entorno ---
+# No subas configuraciones que dependan de tu carpeta específica en una PC
+.kettle/
+.spoonrc
+shared.xml.backup
+
+# --- Archivos del Sistema Operativo ---
+.DS_Store
+Thumbs.db
+
+# --- Carpetas de datos locales (Opcional) ---
+# Si creas carpetas de "input" o "output" con datos pesados o sensibles,
+# es mejor no subirlas a GitHub.
+# input/
+# output/
