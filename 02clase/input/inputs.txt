@@ -1,0 +1,26 @@
+identificador;nombres;apellidos;genero;direccion;usuario;clave
+1;Carlos;Lopez;v;Calle 123;clopez;carl123
+2;Ana;Mendez;m;Avenida Central 45;amendez;ana456
+3;Juan;Perez;v;Calle Norte 12;jperez;juan789
+4;Lucia;Gomez;m;Calle Sur 89;lgomez;luci321
+5;Pedro;Ramirez;v;Calle Este 34;pramirez;pedro654
+6;María;Fernandez;m;Calle Oeste 56;mfernandez;mari987
+7;José;Martinez;v;Calle 7;jmartinez;jose111
+8;Laura;Hernandez;m;Avenida Libertad 22;lhernandez;laura222
+9;Diego;Torres;v;Calle Primavera 9;dtorres;diego333
+10;Sofia;Castro;m;Calle Invierno 14;scastro;sofi444
+11;Andres;Vargas;v;Calle Verano 77;avargas;andres555
+12;Valeria;Rojas;m;Calle Otoño 88;vrojas;val666
+13;Martin;Suarez;v;Calle 10;msuarez;mart777
+14;Paula;Dominguez;m;Calle 11;pdominguez;paula888
+15;Francisco;Reyes;v;Calle 12;freyes;fran999
+16;Isabel;Ortiz;m;Calle 13;iortiz;isa000
+17;Manuel;Silva;v;Calle 14;msilva;manu123
+18;Camila;Morales;m;Calle 15;cmorales;cami456
+19;Ricardo;Jimenez;v;Calle 16;rjimenez;ricky789
+20;Patricia;Aguilar;m;Calle 17;paguilar;pati321
+21;Julio;Navarro;v;Calle 18;jnavarro;julio654
+22;Elena;Diaz;m;Calle 19;ediaz;elena987
+23;Oscar;Cruz;v;Calle 20;ocruz;oscar111
+24;Carolina;Mejia;m;Calle 21;cmejia;caro222
+25;Fernando;Salazar;v;Calle 22;fsalazar;fer333
