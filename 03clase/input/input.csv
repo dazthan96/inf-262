@@ -1,0 +1,26 @@
+identificador;nombre;apellido;direccion;numero_factura;año;mes;dia;subtotal;iva;total;codigo_producto;producto
+1;Ana;Pérez;Calle 1 #123;2001;2024;01;05;120.50;15.67;136.17;R001;Camisa
+2;Luis;Gómez;Avenida Central #45;2002;2024;01;06;89.90;11.69;101.59;R002;Pantalón
+3;María;López;Calle Sur #78;2003;2024;02;10;150.00;19.50;169.50;R003;Chaqueta
+4;Carlos;Ramírez;Calle Norte #12;2004;2024;02;11;75.25;9.78;85.03;R004;Falda
+5;Elena;Fernández;Calle Este #34;2005;2024;03;15;200.00;26.00;226.00;R005;Zapatos
+6;José;Morales;Calle Oeste #56;2006;2024;03;16;65.80;8.55;74.35;R006;Camiseta
+7;Lucía;Vargas;Calle 7 #89;2007;2024;04;20;99.99;13.00;112.99;R007;Blusa
+8;Pedro;Santos;Calle 8 #90;2008;2024;04;21;180.40;23.45;203.85;R008;Suéter
+9;Claudia;Martínez;Calle 9 #91;2009;2024;05;25;220.00;28.60;248.60;R009;Abrigo
+10;Diego;Herrera;Calle 10 #92;2010;2024;05;26;55.75;7.25;63.00;R010;Corbata
+11;Sofía;Castro;Calle 11 #93;2011;2024;06;02;130.00;16.90;146.90;R011;Vestido
+12;Andrés;Silva;Calle 12 #94;2012;2024;06;03;145.50;18.92;164.42;R012;Sombrero
+13;Valeria;Torres;Calle 13 #95;2013;2024;07;07;80.00;10.40;90.40;R013;Bufanda
+14;Fernando;Flores;Calle 14 #96;2014;2024;07;08;95.25;12.38;107.63;R014;Guantes
+15;Gabriela;Reyes;Calle 15 #97;2015;2024;08;12;210.00;27.30;237.30;R015;Sandalias
+16;Ricardo;Jiménez;Calle 16 #98;2016;2024;08;13;175.75;22.85;198.60;R016;Jeans
+17;Patricia;Suárez;Calle 17 #99;2017;2024;09;17;60.00;7.80;67.80;R017;Polo
+18;Manuel;Ortega;Calle 18 #100;2018;2024;09;18;140.40;18.25;158.65;R018;Chaqueta de cuero
+19;Isabel;Navarro;Calle 19 #101;2019;2024;10;22;85.90;11.17;97.07;R019;Blazer
+20;Felipe;Domínguez;Calle 20 #102;2020;2024;10;23;190.00;24.70;214.70;R020;Sudadera
+21;Camila;Aguilar;Calle 21 #103;2021;2024;11;27;75.00;9.75;84.75;R021;Top
+22;Martín;Delgado;Calle 22 #104;2022;2024;11;28;160.50;20.87;181.37;R022;Chaqueta deportiva
+23;Daniela;Mejía;Calle 23 #105;2023;2024;12;02;110.00;14.30;124.30;R023;Leggings
+24;Esteban;Fuentes;Calle 24 #106;2024;2024;12;03;95.80;12.45;108.25;R024;Chaleco
+25;Paola;Cárdenas;Calle 25 #107;2025;2024;12;04;205.00;26.65;231.65;R025;Botas
