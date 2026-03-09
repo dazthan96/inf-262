@@ -1,0 +1,4 @@
+id;fecha;cliente;tipo_falla;estado
+101;2024-01-15;Ana Martínez;Sin luz;Abierto
+102;2024-01-16;Pedro Sánchez;Flamazo;Cerrado
+103;2024-01-17;Laura Díaz;Medidor dañado;Proceso

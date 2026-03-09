@@ -1,0 +1,4 @@
+ID,FECHA,CLIENTE,MOTIVO,ESTADO
+201,2024-01-15,Roberto Ruiz,Cobro excesivo,PENDIENTE
+202,2024-01-16,Sofía Vargas,Factura no llega,RESUELTO
+203,2024-01-17,Diego Mora,Descuento no aplicado,ABIERTO
