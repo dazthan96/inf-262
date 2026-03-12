@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <transformation>
   <info>
-    <name>Transformation 4</name>
+    <name>hecho_ventas</name>
     <description/>
     <extended_description/>
     <trans_version/>
@@ -427,16 +427,16 @@
     <clusterschemas>
     </clusterschemas>
     <created_user>-</created_user>
-    <created_date>2026/03/02 17:38:15.416</created_date>
+    <created_date>2026/03/11 23:14:24.446</created_date>
     <modified_user>-</modified_user>
-    <modified_date>2026/03/02 17:38:15.416</modified_date>
-    <key_for_session_key>H4sIAAAAAAAA/wMAAAAAAAAAAAA=</key_for_session_key>
+    <modified_date>2026/03/11 23:14:24.446</modified_date>
+    <key_for_session_key/>
     <is_key_private>N</is_key_private>
   </info>
   <notepads>
   </notepads>
   <connection>
-    <name>hecho2</name>
+    <name>hecho</name>
     <server>localhost</server>
     <type>POSTGRESQL</type>
     <access>Native</access>
@@ -519,7 +519,7 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <filename>D:/facultad/inf-262/03clase/input/input.csv</filename>
+    <filename>E:/facu/06semestre/inf-262/03clase/input/input.csv</filename>
     <filename_field/>
     <rownum_field/>
     <include_filename>N</include_filename>
@@ -535,7 +535,7 @@
     <encoding/>
     <fields>
       <field>
-        <name>identificador</name>
+        <name>id_cliente</name>
         <type>Integer</type>
         <format>#</format>
         <currency>B$</currency>
@@ -579,7 +579,7 @@
         <trim_type>none</trim_type>
       </field>
       <field>
-        <name>numero_factura</name>
+        <name>nro_factura</name>
         <type>Integer</type>
         <format>#</format>
         <currency>B$</currency>
@@ -590,7 +590,7 @@
         <trim_type>none</trim_type>
       </field>
       <field>
-        <name>año</name>
+        <name>anio</name>
         <type>Integer</type>
         <format>#</format>
         <currency>B$</currency>
@@ -656,13 +656,13 @@
         <trim_type>none</trim_type>
       </field>
       <field>
-        <name>codigo_producto</name>
+        <name>cod_producto</name>
         <type>String</type>
         <format/>
         <currency>B$</currency>
         <decimal>,</decimal>
         <group>.</group>
-        <length>4</length>
+        <length>6</length>
         <precision>-1</precision>
         <trim_type>none</trim_type>
       </field>
@@ -687,8 +687,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>80</xloc>
-      <yloc>80</yloc>
+      <xloc>32</xloc>
+      <yloc>16</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -703,15 +703,15 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <connection>hecho2</connection>
+    <connection>hecho</connection>
     <rowlimit>0</rowlimit>
-    <sql>select codigo_producto 
-from dim_producto where codigo_producto= ?;</sql>
-    <outer_join>Y</outer_join>
+    <sql>SELECT cod_producto
+FROM dim_producto where cod_producto = ?;</sql>
+    <outer_join>N</outer_join>
     <replace_vars>N</replace_vars>
     <parameter>
       <field>
-        <name>codigo_producto</name>
+        <name>cod_producto</name>
         <type>None</type>
       </field>
     </parameter>
@@ -724,8 +724,8 @@ from dim_producto where codigo_producto= ?;</sql>
       </output>
     </remotesteps>
     <GUI>
-      <xloc>80</xloc>
-      <yloc>208</yloc>
+      <xloc>32</xloc>
+      <yloc>128</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -740,11 +740,11 @@ from dim_producto where codigo_producto= ?;</sql>
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <connection>hecho2</connection>
+    <connection>hecho</connection>
     <rowlimit>0</rowlimit>
-    <sql>select identificador
-from dim_cliente
-where nombre = ? and apellido = ?;</sql>
+    <sql>select id_cliente 
+from dim_cliente 
+where nombre =? and apellido =?;</sql>
     <outer_join>N</outer_join>
     <replace_vars>N</replace_vars>
     <parameter>
@@ -766,8 +766,8 @@ where nombre = ? and apellido = ?;</sql>
       </output>
     </remotesteps>
     <GUI>
-      <xloc>272</xloc>
-      <yloc>208</yloc>
+      <xloc>128</xloc>
+      <yloc>128</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -782,16 +782,16 @@ where nombre = ? and apellido = ?;</sql>
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <connection>hecho2</connection>
+    <connection>hecho</connection>
     <rowlimit>0</rowlimit>
     <sql>select fecha
 from dim_tiempo
-where año=? and mes =? and dia=?;</sql>
+where dia =? and mes =? and anio=?;</sql>
     <outer_join>N</outer_join>
     <replace_vars>N</replace_vars>
     <parameter>
       <field>
-        <name>año</name>
+        <name>dia</name>
         <type>None</type>
       </field>
       <field>
@@ -799,7 +799,7 @@ where año=? and mes =? and dia=?;</sql>
         <type>None</type>
       </field>
       <field>
-        <name>mes</name>
+        <name>anio</name>
         <type>None</type>
       </field>
     </parameter>
@@ -812,8 +812,8 @@ where año=? and mes =? and dia=?;</sql>
       </output>
     </remotesteps>
     <GUI>
-      <xloc>272</xloc>
-      <yloc>96</yloc>
+      <xloc>128</xloc>
+      <yloc>32</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -828,11 +828,11 @@ where año=? and mes =? and dia=?;</sql>
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <connection>hecho2</connection>
+    <connection>hecho</connection>
     <schema/>
-    <table>hecho_venta_2</table>
+    <table>hecho_venta</table>
     <commit>1000</commit>
-    <truncate>N</truncate>
+    <truncate>Y</truncate>
     <ignore_errors>N</ignore_errors>
     <use_batch>Y</use_batch>
     <specify_fields>N</specify_fields>
@@ -856,8 +856,8 @@ where año=? and mes =? and dia=?;</sql>
       </output>
     </remotesteps>
     <GUI>
-      <xloc>464</xloc>
-      <yloc>96</yloc>
+      <xloc>224</xloc>
+      <yloc>32</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
